@@ -1,0 +1,25 @@
+Stanca Aurelian Rares - 324CB - Februarie 2021
+
+Proiectul e destul de straightforward, iar cum codul are JavaDoc
+o sa explic design pattern-urile folosite.
+
+Am folosit SINGLETON pentru casa de licitatii. Astfel de-a lungul
+rularii programului exista DOAR o instanca a acesteia. Daca se doreste
+ca proiectul sa fie extins pentru mai multe case, este destul de usor
+sa se inlatureze acest design pattern.
+
+M-am folosit si de BUILDER ca sa construiesc produsele (bijuterii, mobila
+si tablourile), deoarece este foarte simplu de folosit si foarte practic,
+plus codul este mai curat.
+
+Totodata am mai folosit si FACTORY ca sa nu ma intereseze foarte mult
+ce fel de produs/client se creeaza si sa las programul sa isi dea el
+seama in functie de fisierele de intrare. La fel ca si la builder,
+codul este mult mai curat si organizat.
+
+Ultimul design pattern pe care l-am folosit este MEDIATOR. Pe acest post
+se afla brokerul prin care casa de licitatii comunica cu clientul.
+Astfel codul nu este "all over the place" si are un curs.
+
+Testele le-am hardcodat in metoda Main. Fisierele de intrare sunt
+"clienti.in" si "produse.in" care contin listele cu clientii si produsele.
